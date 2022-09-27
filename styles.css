@@ -72,7 +72,7 @@ nav:after {
 }
 
 .about-section {
-    margin: 0rem 2rem;
+    margin: 0rem 0.5rem;
 }
 
 .wrapper-div {
@@ -111,6 +111,24 @@ nav:after {
     text-indent: 4em;
 }
 
+#download-resume-btn {
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    background-image: url(/images/cloud-download-icon.png);
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 9.5rem;
+    background-size: 1.5rem;
+    font-size: 0.8rem;
+    padding: 0.5rem 2.6rem 0.5rem 1rem;
+    font-weight: 600;
+    color: white;
+    background-color: #0079E9;
+    border: 2px #0079E9 solid;
+    border-radius: 0.6rem;
+    margin-top: 8rem;
+}
+
 .image-div {
     position: relative;
     max-width: fit-content;
@@ -122,18 +140,17 @@ nav:after {
     position: absolute;
     left: 0;
     top: 0;
-    width: 98%;
+    width: 100%;
     height: 98%;
     /* Chrome,Safari4+ */
     background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 60%, black 100%);
     /* Chrome10+,Safari5.1+ */
-    border: 2px #0079E9 Solid;
     border-radius: 1rem;
 }
 
 .portrait-image {
     width: 100%;
-    height: 20rem;
+    height: 25rem;
     border: 2px #0079E9 Solid;
     border-radius: 1rem;
 }
@@ -180,6 +197,13 @@ nav:after {
     }
     .col-4 {
         min-width: 100%;
+    }
+    .download-button-div {
+        text-align: center;
+    }
+    #download-resume-btn {
+        margin-top: 1rem;
+        margin-bottom: 0.5rem;
     }
 }
 
