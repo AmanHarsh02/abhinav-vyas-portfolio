@@ -20,7 +20,7 @@ body {
 nav:after {
     content: '';
     display: block;
-    clear: both
+    clear: both;
 }
 
 .list-non-bullet {
@@ -43,6 +43,10 @@ nav:after {
 .link-nav {
     color: #1B1547;
     text-decoration: none;
+}
+
+.navigation .nav-pills .link-nav:hover {
+    font-weight: bold;
 }
 
 .signature-nav {
@@ -185,26 +189,132 @@ nav:after {
     text-align: right;
 }
 
-@media only screen and (min-width: 1000px)  {
+@media only screen and (min-width: 1000px) {
     .quote-div {
         margin: 0.5rem 2.5rem;
     }
 }
 
-@media only screen and (max-width: 700px)  {
+@media only screen and (max-width: 700px) {
     .col-8 {
         min-width: 100%;
     }
+
     .col-4 {
         min-width: 100%;
     }
+
     .download-button-div {
         text-align: center;
     }
+
     #download-resume-btn {
         margin-top: 1rem;
         margin-bottom: 0.5rem;
     }
+
+    .navigation {
+        height: 8rem;
+    }
+
+    .navigation .link-nav {
+        display: block;
+        padding: 0.4rem;
+    }
+
+    .nav-pills {
+        margin: 0rem;
+        overflow: hidden;
+        margin-block-start: 0rem;
+        margin-block-end: 0rem;
+        margin-right: 1rem;
+    }
+
+    .container {
+        background-color: #ddd;
+    }
+
+    .about-section {
+        position: absolute;
+    }
+
+    .navigation .menu {
+        clear: both;
+        position: relative;
+        z-index: 9;
+        max-height: 200px;
+        background: #fff;
+        height: fit-content;
+        padding: 1rem 0rem 1rem 2rem;
+        max-width: fit-content;
+        transform: translate(200%);
+        display: flex;
+        flex-direction: column;
+        transition: transform 0.4s ease-in-out;
+        box-shadow: 5px 0px 10px 0px #aaa;
+    }
+
+    .navigation .menu-icon {
+        padding: 20px 20px;
+        position: relative;
+        float: right;
+        margin-top: 1rem;
+        cursor: pointer;
+    }
+
+    .navigation .menu-icon .nav-icon {
+        background-color: #1B1547;
+        display: block;
+        height: 0.15rem;
+        width: 1.8rem;
+        position: relative;
+        transition: all .2s ease-out;
+    }
+
+    .navigation .menu-icon .nav-icon::before {
+        background-color: #1B1547;
+        content: "";
+        display: block;
+        height: 100%;
+        width: 100%;
+        top: 0.5rem;
+        position: absolute;
+        transition: all .2s ease-out;
+    }
+
+    .navigation .menu-icon .nav-icon::after {
+        background-color: #1B1547;
+        content: "";
+        display: block;
+        height: 100%;
+        width: 100%;
+        top: -0.5rem;
+        position: absolute;
+        transition: all .2s ease-out;
+    }
+
+    .navigation .menu-btn {
+        display: none;
+    }
+
+    .navigation .menu-btn:checked~.menu {
+        transform: translate(0);
+    }
+
+    .navigation .menu-btn:checked~.menu-icon .nav-icon {
+        background: transparent;
+    }
+
+    .navigation .menu-btn:checked~.menu-icon .nav-icon::before {
+        transform: rotate(-45deg);
+        top: 0;
+    }
+
+    .navigation .menu-btn:checked~.menu-icon .nav-icon::after {
+        transform: rotate(45deg);
+        top: 0;
+    }
+
 }
 
 .light-text-white {
