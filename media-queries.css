@@ -60,6 +60,10 @@
         padding: 0.4rem;
     }
 
+    .link-nav:hover {
+        background-color: #ddd;
+    }
+
     .nav-pills {
         margin: 0rem;
         overflow: hidden;
@@ -72,14 +76,11 @@
     .list-item-inline {
         border-bottom: 1px black Solid;
         display: none;
+        padding: 0rem;
     }
 
     .list-item-inline:last-child {
         border-bottom: none;
-    }
-
-    .list-item-inline:hover {
-        background-color: #ddd;
     }
 
     .about-section {
@@ -153,7 +154,7 @@
     }
 
     .navigation .menu-btn:checked~.menu .list-item-inline {
-        display: flex;
+        display: block;
     }
 
     .navigation .menu-btn:checked~.menu-icon .nav-icon {
