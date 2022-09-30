@@ -71,7 +71,7 @@
 
     .list-item-inline {
         border-bottom: 1px black Solid;
-        visibility: collapse;
+        display: none;
     }
 
     .list-item-inline:last-child {
@@ -98,6 +98,7 @@
         width: 92%;
         text-align: center;
         flex-direction: column;
+        visibility: hidden;
         opacity: 0;
         transition: opacity 0.2s ease-in-out;
         box-shadow: 5px 0px 10px 0px #aaa;
@@ -147,11 +148,12 @@
     }
 
     .navigation .menu-btn:checked~.menu {
+        visibility: visible;
         opacity: 1;
     }
 
     .navigation .menu-btn:checked~.menu .list-item-inline {
-        visibility: visible;
+        display: flex;
     }
 
     .navigation .menu-btn:checked~.menu-icon .nav-icon {
