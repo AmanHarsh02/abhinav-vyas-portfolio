@@ -1,9 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0px;
 }
+
+/** Navigation Styling **/
 
 .navigation {
     padding: 1rem 1rem 0rem 1rem;
@@ -19,6 +25,18 @@ body {
 
 .container {
     margin: 1.5rem 0rem;
+    position: relative;
+    z-index: 0;
+}
+
+.project-container {
+    position: relative;
+    z-index: 0;
+}
+
+.blog-container {
+    position: relative;
+    z-index: 0;
 }
 
 nav:after {
@@ -69,9 +87,14 @@ nav:after {
     display: none;
 }
 
-.light-text {
-    font-weight: 400;
-    color: black;
+/** About Section Styling **/
+
+#about-section {
+    scroll-margin-block-start: 9rem;
+}
+
+.about-section {
+    margin: 0rem 0.5rem;
 }
 
 .name-heading {
@@ -82,10 +105,6 @@ nav:after {
 
 .about-heading {
     margin-top: 0.4rem;
-}
-
-.about-section {
-    margin: 0rem 0.5rem;
 }
 
 .wrapper-div {
@@ -214,7 +233,72 @@ nav:after {
 }
 
 
+/** Project Section Styling **/
 
+#project-section {
+    scroll-margin-block-start: 6rem;
+}
+
+.project-section {
+    background-color: rgba(66, 157, 244, 0.2);
+    height: 40rem;
+    padding: 2rem 2rem 2rem 2rem;
+}
+
+.project-section-heading {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #1B1547; 
+}
+
+/** Blog Section Styling **/
+
+#blog-section {
+    scroll-margin-block-start: 6rem;
+}
+
+.blog-section {
+    padding: 2rem 2rem 2rem 2rem;
+}
+
+.blog-section-heading {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #1B1547; 
+}
+
+.blog-elements {
+    position: relative;
+    max-width: fit-content;
+    margin: auto;
+    opacity: 0.6;
+    transition: transform 0.4s ease-out;
+}
+
+.blog-elements:hover {
+    opacity: 1;
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+.blog-link {
+    text-decoration: none;
+    color: #1B1547;
+}
+
+.blog-image {
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+    box-shadow: -5px 5px 20px 0px #aaa;
+}
+
+/** Global Styling Classes**/
+
+.light-text {
+    font-weight: 400;
+    color: black;
+}
 
 .light-text-white {
     font-weight: 400;
@@ -242,7 +326,7 @@ nav:after {
 }
 
 
-
+/** Divided Columns For Responsive Design **/
 
 * {
     box-sizing: border-box;
