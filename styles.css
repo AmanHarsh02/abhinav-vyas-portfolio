@@ -240,7 +240,7 @@ nav:after {
 }
 
 .project-section {
-    background-color: rgba(66, 157, 244, 0.2);
+    background-color: #F1F1F1;
     height: 40rem;
     padding: 2rem 2rem 2rem 2rem;
 }
@@ -253,12 +253,17 @@ nav:after {
 
 /** Blog Section Styling **/
 
+.blog-section .col-4 {
+    padding: 10px;
+}
+
 #blog-section {
     scroll-margin-block-start: 6rem;
 }
 
 .blog-section {
     padding: 2rem 2rem 2rem 2rem;
+    margin-bottom: 8rem;
 }
 
 .blog-section-heading {
@@ -270,27 +275,104 @@ nav:after {
 .blog-elements {
     position: relative;
     max-width: fit-content;
-    margin: auto;
-    opacity: 0.6;
-    transition: transform 0.4s ease-out;
+    padding: 0.4rem 0.4rem 1rem 0.4rem;
+    border-radius: 0.5rem;
+    border: 2px Solid grey;
+    transition: transform 0.2s ease-out;
+    text-align: center;
 }
 
 .blog-elements:hover {
-    opacity: 1;
+    box-shadow: -3px 3px 10px 0px #aaa;
     -webkit-transform: scale(1.05);
     transform: scale(1.05);
-}
-
-.blog-link {
-    text-decoration: none;
-    color: #1B1547;
 }
 
 .blog-image {
     width: 100%;
     height: 100%;
-    border-radius: 1rem;
-    box-shadow: -5px 5px 20px 0px #aaa;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    border: 1px Solid #ddd;
+}
+
+.blog-detail-text {
+    text-align: justify;
+    margin-block-start: 0em;
+    margin-block-end: 1em;
+}
+
+.blog-link {
+    text-decoration: none;
+    font-size: 0.8rem;
+    padding: 0.3rem 0.6rem;
+    font-weight: 600;
+    color: white;
+    background-color: #0079E9;
+    border: 2px #0079E9 solid;
+    border-radius: 0.4rem;
+}
+
+.blog-link:hover {
+    background-color: #0061BA;
+    border: 2px #0061BA solid;
+}
+
+/** Contact Section / Footer Styling **/
+
+.contact-container .col-4 {
+    padding: 0px;
+}
+
+.contact-container {
+    background-color: #1B1547;
+    color: white;
+    padding: 0.5rem;
+}
+
+.contact-detail {
+    text-align: center;
+}
+
+.social-links {
+    text-align: center;
+    height: 3rem;
+    margin-top: 0.2rem;
+    border-left: 2px white dashed;
+    border-right: 2px white dashed;
+}
+
+.email-detail {
+    text-align: center;
+}
+
+.social-media-icons {
+    position: relative;
+    margin: 0rem 1rem;
+    text-decoration: none;
+}
+
+.icons {
+    height: 2rem;
+    width: 2rem;
+    margin-top: 0.6rem;
+    transition: transform 0.1s ease-out;
+}
+
+.icons:hover {
+    -webkit-transform: scale(1.10);
+    transform: scale(1.10);
+}
+
+.developer-info {
+    text-align: center;
+    background-color: #E8E8E8;
+    color: #1B1547;
+    padding: 0.8rem;
+}
+
+.developer-link {
+    color: #0061BA;
 }
 
 /** Global Styling Classes**/
