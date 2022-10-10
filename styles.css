@@ -236,7 +236,7 @@ nav:after {
 /** Project Section Styling **/
 
 #project-section {
-    scroll-margin-block-start: 6rem;
+    scroll-margin-block-start: 0rem;
 }
 
 .project-section {
@@ -324,7 +324,7 @@ nav:after {
 }
 
 #blog-section {
-    scroll-margin-block-start: 6rem;
+    scroll-margin-block-start: 0rem;
 }
 
 .blog-section {
