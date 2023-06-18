@@ -1,388 +1,543 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Abhinav Vyas</title>
-    <link rel="shortcut icon" href="/fav-icon/fav-icon.png" type="image/x-icon">
+    <link
+      rel="shortcut icon"
+      href="/fav-icon/fav-icon.png"
+      type="image/x-icon"
+    />
 
-    <link href="/styles.css" rel="stylesheet">
-    <link href="/media-queries.css" rel="stylesheet">
+    <link href="/styles.css" rel="stylesheet" />
+    <link href="/media-queries.css" rel="stylesheet" />
 
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script src="https://code.iconify.design/iconify-icon/1.0.0/iconify-icon.min.js"></script>
-</head>
+  </head>
 
-<body>
-
+  <body>
     <nav class="navigation">
-        <div class="signature-nav">
-            <img class="signature-img" src="/images/abhinav_vyas_signature.png">
-        </div>
+      <div class="signature-nav">
+        <img class="signature-img" src="/images/abhinav_vyas_signature.png" />
+      </div>
 
-        <input class="menu-btn" type="checkbox" id="menu-btn" />
-        <label class="menu-icon" for="menu-btn"><span class="nav-icon"></span></label>
+      <input class="menu-btn" type="checkbox" id="menu-btn" />
+      <label class="menu-icon" for="menu-btn"
+        ><span class="nav-icon"></span
+      ></label>
 
-        <ul class="list-non-bullet nav-pills menu">
-            <li class="list-item-inline"><a class="link-nav" href="/index.html#about-section">About</a></li>
-            <li class="list-item-inline"><a class="link-nav" href="/index.html#project-section">Projects</a></li>
-            <li class="list-item-inline"><a class="link-nav" href="/index.html#blog-section">Blogs</a></li>
-            <li class="list-item-inline"><a class="link-nav" href="/index.html#contact-section">Contact</a></li>
-        </ul>
+      <ul class="list-non-bullet nav-pills menu">
+        <li class="list-item-inline">
+          <a class="link-nav" href="/index.html#about-section">About</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link-nav" href="/index.html#project-section">Projects</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link-nav" href="/index.html#blog-section">Blogs</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link-nav" href="/index.html#contact-section">Contact</a>
+        </li>
+      </ul>
     </nav>
 
     <div class="container">
+      <div id="about-section" class="row about-section">
+        <div class="col-8">
+          <h1 class="name-heading">
+            <span class="light-text">👋 Hey there! I'm </span>Abhinav
+          </h1>
 
-        <div id="about-section" class="row about-section">
-            <div class="col-8">
-                <h1 class="name-heading"><span class="light-text">👋 Hey there! I'm </span>Abhinav</h1>
+          <div class="wrapper-div">
+            <div class="static-text">I am,</div>
+            <span id="dynamic-text" class="blue-color-span"></span>
+            <span id="cursor"></span>
+          </div>
 
-                <div class="wrapper-div">
-                    <div class="static-text">I am,</div>
-                    <span id="dynamic-text" class="blue-color-span"></span>
-                    <span id="cursor"></span>
-                </div>
+          <p class="about-para">
+            I’m a User Experience Designer who enjoys connecting the dots: be
+            like ideas from different disciplines, people from different teams
+            or applications from different industries & Driving Business Values
+            through ‘Design’.
+          </p>
 
-                <p class="about-para">I’m a User Experience Designer who enjoys connecting the dots: be like ideas from
-                    different disciplines, people from different teams or applications from different industries &
-                    Driving Business Values through ‘Design’.</p>
+          <p class="new-para-indent about-para">
+            I have an academic background in Arts & Psychology and have interest
+            in Human Psychology, Behavioural Science, Human Computer Interaction
+            (HCI) & Cognitive Science.
+          </p>
 
-                <p class="new-para-indent about-para">I have an academic background in Arts & Psychology and have
-                    interest in Human Psychology, Behavioural Science, Human Computer Interaction (HCI) & Cognitive
-                    Science.</p>
+          <p class="new-para-indent about-para">
+            I’m experienced working individually as well as working with a team
+            to brainstrom and whiteboard concepts. I can create wireframes at
+            varying levels of fidelity, and enjoy prototyping ideas. Also, I
+            confidently use the skills from my previous profession of being a
+            Legal Parliamentary Reporter, such as Stenography for note-taking
+            during or after a user interviews to compile and organise the
+            Qualitative Research data.
+          </p>
 
-                <p class="new-para-indent about-para">I’m experienced working individually as well as working with a
-                    team to brainstrom and whiteboard concepts. I can create wireframes at varying levels of fidelity,
-                    and enjoy prototyping ideas. Also, I confidently use the skills from my previous profession of being
-                    a Legal Parliamentary Reporter, such as Stenography for note-taking during or after a user
-                    interviews to compile and organise the Qualitative Research data.</p>
-
-
-                <div class="download-button-div">
-                    <a id="download-resume-link" href="/resume-file/Abhinav Vyas _Product Designer Resume _ 2023.pdf" download>
-                        <button id="download-resume-btn">DOWNLOAD RESUME <iconify-icon icon="akar-icons:cloud-download" style="color: white; vertical-align: -0.3rem; margin-left: 0.4rem;" height="1.2rem" width="1.2rem"></iconify-icon></button>
-                    </a>
-                </div>
-            </div>
-
-            <div class="col-4">
-                <div class="image-quote-container">
-                    <div class="image-div">
-                        <img class="portrait-image" src="/images/abhinav_vyas_self_portrait.jpg">
-                        <p class="name-text">Abhinav N. Vyas<br><span class="light-text-white">Ex - Associate UX Designer
-                                <span class="yellow-color-span">@</span> <span
-                                    class="blue-color-span">Coditas</span></span>
-                        </p>
-                    </div>
-                    <div class="quote-div">
-                        <img src="/images/Vector.png" class="quote-vector">
-                        <div class="quote-text">Man is made by his <span class="blue-color-span">Belief</span>. As he
-                            believes, so he is.</div>
-                        <small class="quote-credit red-color-span">- Bhagvat Gita</small>
-                    </div>
-                </div>
-            </div>
+          <div class="download-button-div">
+            <a
+              id="download-resume-link"
+              href="/resume-file/Abhinav Vyas _Product Designer Resume _ 2023.pdf"
+              download
+            >
+              <button id="download-resume-btn">
+                DOWNLOAD RESUME
+                <iconify-icon
+                  icon="akar-icons:cloud-download"
+                  style="
+                    color: white;
+                    vertical-align: -0.3rem;
+                    margin-left: 0.4rem;
+                  "
+                  height="1.2rem"
+                  width="1.2rem"
+                ></iconify-icon>
+              </button>
+            </a>
+          </div>
         </div>
+
+        <div class="col-4">
+          <div class="image-quote-container">
+            <div class="image-div">
+              <img
+                class="portrait-image"
+                src="/images/abhinav_vyas_self_portrait.jpg"
+              />
+              <p class="name-text">
+                Abhinav N. Vyas<br /><span class="light-text-white"
+                  >Product Designer - 1
+                  <span class="yellow-color-span">@</span>
+                  <span class="blue-color-span">Multipl</span></span
+                >
+              </p>
+            </div>
+            <div class="quote-div">
+              <img src="/images/Vector.png" class="quote-vector" />
+              <div class="quote-text">
+                Man is made by his <span class="blue-color-span">Belief</span>.
+                As he believes, so he is.
+              </div>
+              <small class="quote-credit red-color-span">- Bhagvat Gita</small>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
     <div id="project-section" class="row project-section">
-        <div class="project-container">
+      <div class="project-container">
+        <h3 class="project-section-heading">Check out my recent Projects-</h3>
 
-            <h3 class="project-section-heading">Check out my recent Projects-</h3>
-
-            <div class="project-elements">
-
-                <div class="row project-elements-container">
-
-                    <div class="col-5">
-                        <img class="project-image pilo-project-image" src="/project-images/pilo-project-image.png">
-                    </div>
-
-                    <div class="col-7">
-                        <div class="height-70-percent">
-                            <div class="project-name">PILO (e-commerce App) UX Design Case Study</div>
-                            <p class="about-para">A beverage ordering & delivery app (Exclusively for the People of
-                                PUNE)
-                            </p>
-                            <p class="new-para-indent about-para">As an Associate UX Designer (Apprenticeship Trainee) @
-                                Coditas Solutions LLP, we've been given a responsibility to initially solve a raw
-                                Problem of
-                                one of our clients.</p>
-                        </div>
-
-                        <div class="row">
-                            <div class="col-6 logos-container">
-                                <iconify-icon icon="logos:figma" class="tools-used-icons" width="1.5rem"
-                                    height="1.5rem"></iconify-icon>
-
-                                <iconify-icon icon="cib:notion" width="1.5rem" height="1.5rem" class="tools-used-icons">
-                                </iconify-icon>
-
-                                <iconify-icon icon="logos:slack-icon" width="1.5rem" height="1.5rem"
-                                    class="tools-used-icons"></iconify-icon>
-
-                                <iconify-icon icon="logos:adobe-photoshop" width="1.5rem" height="1.5rem"
-                                    class="tools-used-icons"></iconify-icon>
-
-                                <iconify-icon icon="logos:google-meet" width="1.5rem" height="1.5rem"
-                                    class="tools-used-icons"></iconify-icon>
-
-                                <iconify-icon icon="noto:brain" width="1.6rem" height="1.6rem" class="tools-used-icons">
-                                </iconify-icon>
-                            </div>
-
-                            <div class="col-6">
-                                <a class="project-link" href="https://www.behance.net/gallery/154511343/PILO-A-Beverage-Delivery-Platform-%28E-commerce%29
-                                " target="_blank">Read Case Study</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+        <div class="project-elements">
+          <div class="row project-elements-container">
+            <div class="col-5">
+              <img
+                class="project-image pilo-project-image"
+                src="/project-images/pilo-project-image.png"
+              />
             </div>
 
-            <div class="project-elements">
-
-                <div class="row project-elements-container">
-
-                    <div class="col-5">
-                        <img class="project-image pnb-project-image" src="/project-images/pnb-atm-redesign-project-image.png">
-                    </div>
-
-                    <div class="col-7">
-
-                        <div class="height-70-percent">
-
-                            <div class="project-name">PNB’s ATM Redesign Small Interaction Design Case Study</div>
-                            <p class="about-para">Redesigned PNB’s ATM (Design Challenge)</p>
-                            <p class="new-para-indent about-para">The Design Tribe of our office have been given a
-                                challenge to individually identify the improvement opportunities in PNB ATMs Interface.
-                                Here is my quick problem identification and solution.</p>
-
-                        </div>
-
-                        <div class="row">
-                            <div class="col-6 logos-container">
-                                <iconify-icon icon="logos:figma" class="tools-used-icons" width="1.5rem"
-                                    height="1.5rem"></iconify-icon>
-
-                                <iconify-icon icon="cib:notion" width="1.5rem" height="1.5rem" class="tools-used-icons">
-                                </iconify-icon>
-
-                                <iconify-icon icon="logos:slack-icon" width="1.5rem" height="1.5rem"
-                                    class="tools-used-icons"></iconify-icon>
-
-                                <iconify-icon icon="logos:google-meet" width="1.5rem" height="1.5rem"
-                                    class="tools-used-icons"></iconify-icon>
-
-                                <iconify-icon icon="noto:brain" width="1.6rem" height="1.6rem" class="tools-used-icons">
-                                </iconify-icon>
-                            </div>
-
-                            <div class="col-6">
-                                <a class="project-link" href="https://www.behance.net/gallery/154593363/PNB-ATM-Redesign-Interaction-Design-Case-Study?" target="_blank">Read Case Study</a>
-                            </div>
-                        </div>
-                    </div>
+            <div class="col-7">
+              <div class="height-70-percent">
+                <div class="project-name">
+                  PILO (e-commerce App) UX Design Case Study
                 </div>
-            </div>
+                <p class="about-para">
+                  A beverage ordering & delivery app (Exclusively for the People
+                  of PUNE)
+                </p>
+                <p class="new-para-indent about-para">
+                  As an Associate UX Designer (Apprenticeship Trainee) @ Coditas
+                  Solutions LLP, we've been given a responsibility to initially
+                  solve a raw Problem of one of our clients.
+                </p>
+              </div>
 
-            <div class="project-elements">
+              <div class="row">
+                <div class="col-6 logos-container">
+                  <iconify-icon
+                    icon="logos:figma"
+                    class="tools-used-icons"
+                    width="1.5rem"
+                    height="1.5rem"
+                  ></iconify-icon>
 
-                <div class="row project-elements-container">
+                  <iconify-icon
+                    icon="cib:notion"
+                    width="1.5rem"
+                    height="1.5rem"
+                    class="tools-used-icons"
+                  >
+                  </iconify-icon>
 
-                    <div class="col-5">
-                        <img class="project-image curtainz-project-image" src="/project-images/curtainzz-project-image.png">
-                    </div>
+                  <iconify-icon
+                    icon="logos:slack-icon"
+                    width="1.5rem"
+                    height="1.5rem"
+                    class="tools-used-icons"
+                  ></iconify-icon>
 
-                    <div class="col-7">
-                        <div class="height-70-percent">
-                            <div class="project-name">My First UX Design Case Study (A Learning Experience)</div>
-                            <p class="about-para">Curtainzz - Conceptual Movie Booking Application</p>
-                            <p class="new-para-indent about-para">Followed the whole UX Process from conducting user interviews to making pixel perfect High-Fidelity Interface Design for Mobile Devices using 8px Grid System in Figma.</p>
-                        </div>
+                  <iconify-icon
+                    icon="logos:adobe-photoshop"
+                    width="1.5rem"
+                    height="1.5rem"
+                    class="tools-used-icons"
+                  ></iconify-icon>
 
-                        <div class="row">
-                            <div class="col-6 logos-container">
-                                <iconify-icon icon="logos:figma" class="tools-used-icons" width="1.5rem"
-                                    height="1.5rem"></iconify-icon>
+                  <iconify-icon
+                    icon="logos:google-meet"
+                    width="1.5rem"
+                    height="1.5rem"
+                    class="tools-used-icons"
+                  ></iconify-icon>
 
-                                <iconify-icon icon="logos:google-drive" width="1.5rem" height="1.5rem" class="tools-used-icons">
-                                </iconify-icon>
-
-                                <iconify-icon icon="logos:google-meet" width="1.5rem" height="1.5rem"
-                                    class="tools-used-icons"></iconify-icon>
-
-                                <iconify-icon icon="logos:marvel" width="2rem" height="2rem" class="tools-used-icons">
-                                </iconify-icon>
-                            </div>
-
-                            <div class="col-6">
-                                <a class="project-link" href="https://www.behance.net/gallery/154585611/Curtainzz-A-Movie-Theatre-Ticket-Booking-Application" target="_blank">Read Case Study</a>
-                            </div>
-                        </div>
-                    </div>
+                  <iconify-icon
+                    icon="noto:brain"
+                    width="1.6rem"
+                    height="1.6rem"
+                    class="tools-used-icons"
+                  >
+                  </iconify-icon>
                 </div>
-            </div>
 
+                <div class="col-6">
+                  <a
+                    class="project-link"
+                    href="https://www.behance.net/gallery/154511343/PILO-A-Beverage-Delivery-Platform-%28E-commerce%29
+                                "
+                    target="_blank"
+                    >Read Case Study</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
 
+        <div class="project-elements">
+          <div class="row project-elements-container">
+            <div class="col-5">
+              <img
+                class="project-image pnb-project-image"
+                src="/project-images/pnb-atm-redesign-project-image.png"
+              />
+            </div>
+
+            <div class="col-7">
+              <div class="height-70-percent">
+                <div class="project-name">
+                  PNB’s ATM Redesign Small Interaction Design Case Study
+                </div>
+                <p class="about-para">
+                  Redesigned PNB’s ATM (Design Challenge)
+                </p>
+                <p class="new-para-indent about-para">
+                  The Design Tribe of our office have been given a challenge to
+                  individually identify the improvement opportunities in PNB
+                  ATMs Interface. Here is my quick problem identification and
+                  solution.
+                </p>
+              </div>
+
+              <div class="row">
+                <div class="col-6 logos-container">
+                  <iconify-icon
+                    icon="logos:figma"
+                    class="tools-used-icons"
+                    width="1.5rem"
+                    height="1.5rem"
+                  ></iconify-icon>
+
+                  <iconify-icon
+                    icon="cib:notion"
+                    width="1.5rem"
+                    height="1.5rem"
+                    class="tools-used-icons"
+                  >
+                  </iconify-icon>
+
+                  <iconify-icon
+                    icon="logos:slack-icon"
+                    width="1.5rem"
+                    height="1.5rem"
+                    class="tools-used-icons"
+                  ></iconify-icon>
+
+                  <iconify-icon
+                    icon="logos:google-meet"
+                    width="1.5rem"
+                    height="1.5rem"
+                    class="tools-used-icons"
+                  ></iconify-icon>
+
+                  <iconify-icon
+                    icon="noto:brain"
+                    width="1.6rem"
+                    height="1.6rem"
+                    class="tools-used-icons"
+                  >
+                  </iconify-icon>
+                </div>
+
+                <div class="col-6">
+                  <a
+                    class="project-link"
+                    href="https://www.behance.net/gallery/154593363/PNB-ATM-Redesign-Interaction-Design-Case-Study?"
+                    target="_blank"
+                    >Read Case Study</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-elements">
+          <div class="row project-elements-container">
+            <div class="col-5">
+              <img
+                class="project-image curtainz-project-image"
+                src="/project-images/curtainzz-project-image.png"
+              />
+            </div>
+
+            <div class="col-7">
+              <div class="height-70-percent">
+                <div class="project-name">
+                  My First UX Design Case Study (A Learning Experience)
+                </div>
+                <p class="about-para">
+                  Curtainzz - Conceptual Movie Booking Application
+                </p>
+                <p class="new-para-indent about-para">
+                  Followed the whole UX Process from conducting user interviews
+                  to making pixel perfect High-Fidelity Interface Design for
+                  Mobile Devices using 8px Grid System in Figma.
+                </p>
+              </div>
+
+              <div class="row">
+                <div class="col-6 logos-container">
+                  <iconify-icon
+                    icon="logos:figma"
+                    class="tools-used-icons"
+                    width="1.5rem"
+                    height="1.5rem"
+                  ></iconify-icon>
+
+                  <iconify-icon
+                    icon="logos:google-drive"
+                    width="1.5rem"
+                    height="1.5rem"
+                    class="tools-used-icons"
+                  >
+                  </iconify-icon>
+
+                  <iconify-icon
+                    icon="logos:google-meet"
+                    width="1.5rem"
+                    height="1.5rem"
+                    class="tools-used-icons"
+                  ></iconify-icon>
+
+                  <iconify-icon
+                    icon="logos:marvel"
+                    width="2rem"
+                    height="2rem"
+                    class="tools-used-icons"
+                  >
+                  </iconify-icon>
+                </div>
+
+                <div class="col-6">
+                  <a
+                    class="project-link"
+                    href="https://www.behance.net/gallery/154585611/Curtainzz-A-Movie-Theatre-Ticket-Booking-Application"
+                    target="_blank"
+                    >Read Case Study</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
     <div class="blog-container">
+      <div id="blog-section" class="blog-section">
+        <h3 class="blog-section-heading">My Blogs-</h3>
 
-        <div id="blog-section" class="blog-section">
-            <h3 class="blog-section-heading">My Blogs-</h3>
+        <div class="row">
+          <div class="col-4">
+            <div class="blog-elements">
+              <img class="blog-image" src="/blog-images/blog-image_1.png" />
 
-            <div class="row">
+              <p class="blog-detail-text">
+                Human can play role of a Processor, a Predictor and a
+                Participant.
+              </p>
 
-                <div class="col-4">
-
-
-                    <div class="blog-elements">
-                        <img class="blog-image" src="/blog-images/blog-image_1.png">
-
-                        <p class="blog-detail-text">Human can play role of a Processor, a Predictor and a Participant.
-                        </p>
-
-                        <a class="blog-link"
-                            href="https://medium.com/@abhinav.uxdesign/three-views-of-user-in-hci-processor-predictor-participant-c56d67264abf"
-                            target="_blank">Read More</a>
-                    </div>
-
-
-                </div>
-
-                <div class="col-4">
-
-
-                    <div class="blog-elements">
-                        <img class="blog-image" src="/blog-images/blog-image_2.jpg">
-
-                        <p class="blog-detail-text">My Observations related to ‘Human Error in Design’.
-                        </p>
-
-                        <a class="blog-link"
-                            href="https://medium.com/@abhinav.uxdesign/my-observations-related-to-human-error-in-design-cf4ef1d2aea3"
-                            target="_blank">Read More</a>
-                    </div>
-
-
-                </div>
-
-                <div class="col-4">
-
-
-                    <div class="blog-elements">
-                        <img class="blog-image" src="/blog-images/blog-image_3.jpeg">
-
-                        <p class="blog-detail-text">What is a feedback cycle (The most important concept in HCI) ?
-                        </p>
-
-                        <a class="blog-link"
-                            href="https://medium.com/@abhinav.uxdesign/feedback-cycle-in-hci-interaction-design-2762d1b99ef8"
-                            target="_blank">Read More</a>
-                    </div>
-
-
-                </div>
-
+              <a
+                class="blog-link"
+                href="https://medium.com/@abhinav.uxdesign/three-views-of-user-in-hci-processor-predictor-participant-c56d67264abf"
+                target="_blank"
+                >Read More</a
+              >
             </div>
+          </div>
 
-            <div class="row">
+          <div class="col-4">
+            <div class="blog-elements">
+              <img class="blog-image" src="/blog-images/blog-image_2.jpg" />
 
-                <div class="col-4">
+              <p class="blog-detail-text">
+                My Observations related to ‘Human Error in Design’.
+              </p>
 
-
-                    <div class="blog-elements">
-                        <img class="blog-image" src="/blog-images/blog-image_4.jpeg">
-
-                        <p class="blog-detail-text">Here I will talk about Bridging the Gaps for ‘Gulf of Execution &
-                            Evaluation’
-                        </p>
-
-                        <a class="blog-link"
-                            href="https://medium.com/@abhinav.uxdesign/bridging-the-gap-between-gulf-of-execution-gulf-of-evaluation-of-a-feedback-cycle-in-ffe27bc912d9"
-                            target="_blank">Read More</a>
-                    </div>
-
-
-                </div>
-
-                <div class="col-4">
-
-
-                    <div class="blog-elements">
-                        <img class="blog-image" src="/blog-images/blog-image_5.jpg">
-
-                        <p class="blog-detail-text">What is Feed-Forward ? (Human Computer Interaction)
-                        </p>
-
-                        <a class="blog-link" href="https://medium.com/@abhinav.uxdesign/hello-readers-f0991c236a25"
-                            target="_blank">Read More</a>
-                    </div>
-
-                </div>
-
-                <div class="col-4">
-
-
-                    <div class="blog-elements">
-                        <img class="blog-image" src="/blog-images/blog-image_6.jpg">
-
-                        <p class="blog-detail-text">Designing Easy & Learnable Interfaces - The Learning Curve concept in HCI/Design
-                        </p>
-
-                        <a class="blog-link" href="https://medium.com/@abhinav.uxdesign/designing-easy-and-learnable-interfaces-the-learning-curve-concept-in-hci-design-a6f663ea9666"
-                            target="_blank">Read More</a>
-                    </div>
-
-                </div>
-
+              <a
+                class="blog-link"
+                href="https://medium.com/@abhinav.uxdesign/my-observations-related-to-human-error-in-design-cf4ef1d2aea3"
+                target="_blank"
+                >Read More</a
+              >
             </div>
+          </div>
 
+          <div class="col-4">
+            <div class="blog-elements">
+              <img class="blog-image" src="/blog-images/blog-image_3.jpeg" />
+
+              <p class="blog-detail-text">
+                What is a feedback cycle (The most important concept in HCI) ?
+              </p>
+
+              <a
+                class="blog-link"
+                href="https://medium.com/@abhinav.uxdesign/feedback-cycle-in-hci-interaction-design-2762d1b99ef8"
+                target="_blank"
+                >Read More</a
+              >
+            </div>
+          </div>
         </div>
 
+        <div class="row">
+          <div class="col-4">
+            <div class="blog-elements">
+              <img class="blog-image" src="/blog-images/blog-image_4.jpeg" />
+
+              <p class="blog-detail-text">
+                Here I will talk about Bridging the Gaps for ‘Gulf of Execution
+                & Evaluation’
+              </p>
+
+              <a
+                class="blog-link"
+                href="https://medium.com/@abhinav.uxdesign/bridging-the-gap-between-gulf-of-execution-gulf-of-evaluation-of-a-feedback-cycle-in-ffe27bc912d9"
+                target="_blank"
+                >Read More</a
+              >
+            </div>
+          </div>
+
+          <div class="col-4">
+            <div class="blog-elements">
+              <img class="blog-image" src="/blog-images/blog-image_5.jpg" />
+
+              <p class="blog-detail-text">
+                What is Feed-Forward ? (Human Computer Interaction)
+              </p>
+
+              <a
+                class="blog-link"
+                href="https://medium.com/@abhinav.uxdesign/hello-readers-f0991c236a25"
+                target="_blank"
+                >Read More</a
+              >
+            </div>
+          </div>
+
+          <div class="col-4">
+            <div class="blog-elements">
+              <img class="blog-image" src="/blog-images/blog-image_6.jpg" />
+
+              <p class="blog-detail-text">
+                Designing Easy & Learnable Interfaces - The Learning Curve
+                concept in HCI/Design
+              </p>
+
+              <a
+                class="blog-link"
+                href="https://medium.com/@abhinav.uxdesign/designing-easy-and-learnable-interfaces-the-learning-curve-concept-in-hci-design-a6f663ea9666"
+                target="_blank"
+                >Read More</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
     <footer class="footer">
-        <div id="contact-section" class="contact-container">
-            <div class="row">
-                <div class="col-4 contact-detail">
-                    <p>+91-8619048358</p>
-                </div>
+      <div id="contact-section" class="contact-container">
+        <div class="row">
+          <div class="col-4 contact-detail">
+            <p>+91-8619048358</p>
+          </div>
 
-                <div class="col-4 social-links">
-                    <a href="https://www.linkedin.com/in/abhinav-n-vyas-258131111/" class="social-media-icons"
-                        target="_blank">
-                        <img class="icons" src="/icons/linkedin.png">
-                    </a>
+          <div class="col-4 social-links">
+            <a
+              href="https://www.linkedin.com/in/abhinav-n-vyas-258131111/"
+              class="social-media-icons"
+              target="_blank"
+            >
+              <img class="icons" src="/icons/linkedin.png" />
+            </a>
 
-                    <a href="https://www.instagram.com/abhinav_atae/" class="social-media-icons" target="_blank">
-                        <img class="icons" src="/icons/instagram.png">
-                    </a>
+            <a
+              href="https://www.instagram.com/abhinav_atae/"
+              class="social-media-icons"
+              target="_blank"
+            >
+              <img class="icons" src="/icons/instagram.png" />
+            </a>
 
-                    <a href="https://www.behance.net/abhinavvyas2" class="social-media-icons" target="_blank">
-                        <img class="icons" src="/icons/behance.png">
-                    </a>
-                </div>
+            <a
+              href="https://www.behance.net/abhinavvyas2"
+              class="social-media-icons"
+              target="_blank"
+            >
+              <img class="icons" src="/icons/behance.png" />
+            </a>
+          </div>
 
-                <div class="col-4 email-detail">
-                    <p>abhinav.uxdesign@gmail.com</p>
-                </div>
-            </div>
+          <div class="col-4 email-detail">
+            <p>abhinav.uxdesign@gmail.com</p>
+          </div>
         </div>
+      </div>
 
-        <div class="developer-info">
-            Made with ❤️ by <a class="developer-link" href="https://www.linkedin.com/in/aman-harsh/"
-                target="_blank">Aman Harsh</a> (2022)
-        </div>
+      <div class="developer-info">
+        Made with ❤️ by
+        <a
+          class="developer-link"
+          href="https://www.linkedin.com/in/aman-harsh/"
+          target="_blank"
+          >Aman Harsh</a
+        >
+        (2022)
+      </div>
     </footer>
 
-
     <script src="/app.js" type="text/javascript"></script>
-
-</body>
-
+  </body>
 </html>
